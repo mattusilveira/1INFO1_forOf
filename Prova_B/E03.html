@@ -8,13 +8,24 @@
     */
 
     //Entrada
+    const media1 = Number(prompt("Informe a 1° media, Por Favor!").trim());
+    const media2 = Number(prompt("Informe a 2° media, Por Favor!").trim());
+    const media3 = Number(prompt("Informe a 3° media, Por Favor!").trim());
 
+    let lista = [media1, media2, media3];
+    let somaNotas = 0;
 
     //Processamento
-
+    for (const média of lista) {
+        if (média > media1m && media2 && media3) {
+            alert(`A maior média é a média 1`);
+        }
+    }
+    const mediaTurmas = (media1 + media2 + media3) / 3;
 
     //Saída
-
+    alert(`A média das turmas: ${mediaTurmas}`);
+    alert(`A nota mais alta: ${nota}`);
 
     /*
     Exemplo:
