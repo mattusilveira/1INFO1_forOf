@@ -78,4 +78,3 @@ Para me adicionar como colaborador, estando com o repositório aberto no GitHub,
   * nomeDaString.replace(',', '.');
 * Substituir um ponto por uma vírgula
   * nomeDaString.replace('.', ',');
-* 
