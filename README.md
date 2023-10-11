@@ -54,3 +54,28 @@ Para me adicionar como colaborador, estando com o repositório aberto no GitHub,
 
 # 
 # **<u>Boa prova a todos!</u>**
+
+
+### Dicas
+
+* Ordenar Array de Números
+  * nomeDoArray.sort((a, b) => a - b);
+  * nomeDoArray.sort((a, b) => b - a);
+* Ordenar Array de Strings
+  * nomeDoArray.sort();
+  * nomeDoArray.reverse();
+* Adicionar elementos num Array
+  * nomeDoArray.push(elemento);
+* Remover elementos de um Array
+  * nomeDoArray.pop();
+* Retirar espaços em branco de uma String
+  * nomeDaString.trim();
+* Colocar uma String em caixa alta(maiúscula)
+  * nomeDaString.toUpperCase();
+* Colocar uma String em caixa baixa(minúscula)
+  * nomeDaString.toLowerCase();
+* Substituir uma vírgula por um ponto
+  * nomeDaString.replace(',', '.');
+* Substituir um ponto por uma vírgula
+  * nomeDaString.replace('.', ',');
+* 
